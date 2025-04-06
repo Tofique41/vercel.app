@@ -1,0 +1,16 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": "^(?!.*facebookexternalhit).*$"
+        }
+      ],
+      "destination": "https://aa.hungryhost.in/top-5-hospitals-in-chennai/?utm_source=R2H&utm_medium=R2H",
+      "statusCode": 302
+    }
+  ]
+}
